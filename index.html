@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Doe - Creative Developer</title>
+    <meta name="description" content="A creative developer portfolio with a focus on interactive 3D web experiences.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recoleta:wght@400;600&family=Inter+Tight:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">{
+      "imports":{
+        "three":"https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"
+      }}
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <canvas id="webgl-canvas"></canvas>
+
+    <header>
+      <nav>
+        <span>Alex Doe / Creative Developer</span>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">
+                <span>Crafting</span>
+                <span class="accent-text">tactile</span>
+                <span>digital</span>
+                <span>worlds.</span>
+            </h1>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about__text">
+                <h2>I'm Alex, a creative developer who blends code with artistry to build playful, immersive web experiences. My work is guided by a love for the organic, the handcrafted, and the joy of interaction.</h2>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="work__header">
+                <h3>Featured Work</h3>
+                <div class="scroll-hint">Scroll Right &rarr;</div>
+            </div>
+            <div class=
